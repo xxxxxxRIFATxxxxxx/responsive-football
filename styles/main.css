@@ -11,3 +11,194 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+main {
+    background-color: #FFFFFF;
+}
+
+h2 {
+    font-size: 48px;
+    color: #0A0826;
+    line-height: 60px;
+}
+
+h3 {
+    font-size: 28px;
+    color: #18191F;
+    margin: 10px 0px;
+}
+
+p {
+    color: #6C6C6C;
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 150px;
+}
+
+.magenta-button {
+    background: #E02C6D;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.magenta-button:hover {
+    background: #c92863;
+}
+
+.button-icon {
+    margin-left: 10px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* Players Section CSS */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin: auto;
+    cursor: pointer;
+}
+
+.player img {
+    width: 300px;
+    height: 256px;
+}
+
+/* Highlights Section CSS */
+.highlights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 95px 100px 158px 150px;
+}
+
+.highlights .magenta-button {
+    margin-top: 28px;
+}
+
+.highlights img {
+    width: 567px;
+    height: 427px;
+    margin-left: 56px;
+}
+
+/* Match Schedule CSS */
+.match-schedule {
+    margin-bottom: 150px;
+}
+
+.match-schedule table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.match-schedule td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.match-schedule tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* Newsletter Section CSS */
+.newsletter {
+    padding: 50px;
+    margin-bottom: 150px;
+    background-color: #f1f1f1;
+}
+
+.newsletter-sub-container {
+    padding: 20px;
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: #c92863;
+}
+
+/* Footer CSS */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 63px;
+}
+
+footer img {
+    width: 483.87px;
+    height: 110px;
+}
+
+footer p {
+    font-size: 18px;
+    color: #000000;
+}
+
+footer a {
+    color: #969BAB;
+}
+
+.social-icons {
+    color: #969BAB;
+    margin: 20px 0;
+}
+
+.social-icon {
+    background-color: #E7E7E8;
+    padding: 7.47px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
