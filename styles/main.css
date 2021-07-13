@@ -16,6 +16,12 @@ main {
     background-color: #FFFFFF;
 }
 
+h1 {
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
 h2 {
     font-size: 48px;
     color: #0A0826;
@@ -67,6 +73,28 @@ a {
 
 .center-text {
     text-align: center;
+}
+
+/* Header CSS */
+header {
+    background-color: #2D25A0;
+    padding: 42px 120px 86px 120px;
+}
+
+/* Top Banner CSS */
+.top-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-banner button {
+    margin-top: 20px;
+}
+
+.top-banner img {
+    width: 556.01px;
+    height: 438px;
 }
 
 /* Players Section CSS */
